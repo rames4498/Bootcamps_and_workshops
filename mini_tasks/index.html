@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Calculator</title>
+    <style media="screen">
+      body{
+        background:yellow;
+      }
+      *{
+        box-sizing:border-box;
+        -webkit-box-sizinig:border-box;
+        -moz-box-siing:border-box;
+      }
+      .content{
+        width:400px;
+        margin:auto;
+        height:auto;
+        background:violet;
+        padding:5px;
+      }
+      h3{
+        text-align:center;
+      }
+    input[type=text]{
+      width:100%;
+      padding:10px;
+      font-size:25px;
+      font-weight:bold;
+      margin-top:20px;
+      border-radius:5px;
+    }
+    input[type=button]{
+      width:24%;
+      padding:15px;
+      font-size:25px;
+      font-weight:bold;
+      border-radius:5px;
+    </style>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="content">
+      <form class="" action="index.html" name="calc" method="post">
+        <h3><font color = "blue">CALCULATOR</font></h3><br>
+        <input type="text" name="display" value="">
+        <br><br>
+        <input type="button" class="btn btn-success" name="" value="9" onclick="calc.display.value+='9'">
+        <input type="button" class="btn btn-success" name="" value="8" onclick="calc.display.value+='8'">
+        <input type="button" class="btn btn-success" name="" value="7" onclick="calc.display.value+='7'">
+        <input type="button" class="btn btn-primary" name="" value="+" onclick="calc.display.value+='+'">
+        <br><br>
+        <input type="button" class="btn btn-success" name="" value="6" onclick="calc.display.value+='6'">
+        <input type="button" class="btn btn-success" name="" value="5" onclick="calc.display.value+='5'">
+        <input type="button" class="btn btn-success" name="" value="4" onclick="calc.display.value+='4'">
+        <input type="button" class="btn btn-primary" name="" value="-" onclick="calc.display.value+='-'">
+        <br><br>
+        <input type="button" class="btn btn-success" name="" value="3" onclick="calc.display.value+='3'">
+        <input type="button" class="btn btn-success" name="" value="2" onclick="calc.display.value+='2'">
+        <input type="button" class="btn btn-success" name="" value="1" onclick="calc.display.value+='1'">
+        <input type="button" class="btn btn-primary" name="" value="*" onclick="calc.display.value+='*'">
+        <br><br>
+        <input type="button" class="btn btn-primary" name="" value="0" onclick="calc.display.value+='0'">
+        <input type="button" class="btn btn-primary" name="" value="/" onclick="calc.display.value+='/'">
+        <input type="button" class="btn btn-primary" name="" value="%" onclick="calc.display.value+='%'">
+        <input type="button" class="btn btn-info" name="" value="=" onclick="calc.display.value = eval(calc.display.value)">
+        <br><br>
+        <input type="button" name="" class="btn btn-danger" value="Del" onclick="calc.display.value =''">
+
+      </form>
+<br><br>
+
+
+  <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+
+
+    </div>
+  </body>
+</html>

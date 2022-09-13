@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>sample page</title>
+  </head>
+  <body>
+    <p>adding multiple events</p>
+    <p>click the following button</p>
+
+    <button type="button" id ="btn" name="button">Click here</button>
+
+    <p id="sample1"></p>
+    <p id="sample2"></p>
+
+    <script type="text/javascript">
+      function func(){
+        alert("Hi Kgisl")
+      }
+      function func2(){
+        document.getElementById('sample1').innerHTML = "Another function"
+        document.getElementById('sample1').style.color = 'blue'
+      }
+      function func3(){
+        document.getElementById('sample2').innerHTML = "This is the Final Function"
+        document.getElementById('sample2').style.color = 'red'
+      }
+
+      var button  = document.getElementById('btn');
+      button.addEventListener('click', func);
+      button.addEventListener('click', func2);
+      button.addEventListener('click', func3);
+
+    </script>
+  </body>
+</html>
