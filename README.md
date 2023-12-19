@@ -1,4 +1,5 @@
-
+#COLAB LINK FOR ML SESSION
+https://colab.research.google.com/drive/1ez1t6A2qkeEwIsdciZnOoEfwZOjmuKCH?usp=sharing
 ## Tasks for students
 
 **1. What will be the output of the following Python code? Explain.**
