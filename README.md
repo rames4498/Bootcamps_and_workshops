@@ -1,5 +1,9 @@
 #COLAB LINK FOR ML SESSION
 https://colab.research.google.com/drive/1ez1t6A2qkeEwIsdciZnOoEfwZOjmuKCH?usp=sharing
+
+#COLAB LINK FOR WEB SCRAPPING BASICS
+https://colab.research.google.com/drive/1op5QT2UoRgugH8ZNAimQcW84cwXQSaBB?usp=sharing
+
 ## Tasks for students
 
 **1. What will be the output of the following Python code? Explain.**
